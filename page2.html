@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login-Coffe Star</title>
+    <link rel="stylesheet" href="./Page.css">
+  </head>
+  <body>
+    <header>
+      <h1> Coffe-Star ☕</h1>
+    </header>
+
+    <main>
+
+    <div class="cabetotalis">
+      <p class="ola">Bem-Vindo(a),</p>
+      <div class="butos">
+            <div class="espacamento">
+            <input
+              type="button"
+              class="butoB"
+              value="Clique para voltar a pagina inicial"
+              onclick="back()"
+            /><br />
+          </div>
+          <div class="espacamento">
+            <input
+              type="button"
+              class="butoL"
+              value="Clique para mostrar a lista de usuários"
+              onclick="liste()"
+            /><br />
+          </div>
+          <div class="espacamento">
+            <input
+              type="button"
+              class="butoC"
+              value="Clique para limpar a lista de usuários"
+              onclick="cleare()"
+            /><br />
+            </div>
+            <div class="espacamento">
+            <input
+              type="button"
+              class="butocc"
+              value="Clique para criar usuários"
+              id="criare"
+            /><br />
+            </div>
+            <div class="espacamento">
+            <input
+              type="button"
+              class="butoD"
+              value="Clique para deletar usuários"
+              onclick="delt()"
+            /><br />
+            </div>
+            <div class="espacamento">
+            <input
+              type="button"
+              class="butoV"
+              value="Clique para validar usuários"
+              id="valide"
+            /><br />
+            </div>
+            <div class="espacamento">
+            <input
+              type="button"
+              class="butoT"
+              value="Clique para testar usuários"
+              id="test"
+            />
+            </div>
+      </div>
+      <br />
+      </div>
+      <section class="listU"></section>
+    </main>
+    <footer>
+    <script src="login.js"></script>
+  </footer>
+  </body>
+</html>

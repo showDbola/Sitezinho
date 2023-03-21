@@ -1,0 +1,98 @@
+:root{
+    --color-white: #fff;
+    --color-blue:#1900fa;
+    --color-blue1:#2d9c9367;
+    --color-roxo:#6505ff;
+    --color-black:#070000;
+    --color-blue3:#005b72;
+    --color-blue4:rgb(122, 196, 189);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header h1{
+    background-color: var(--color-blue4);
+    padding: 30px;
+    font-size: 4rem;
+    text-align: center  ;
+}
+
+h2{
+    max-height:100% ;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--color-blue4);
+    padding: 2rem;
+    font-size: 3rem;
+}
+body{
+    background-color: var(--color-blue3) ;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--color-white);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    display: flex;
+}
+
+
+
+main input{
+    border: solid var(--color-white);
+    border-radius: 25px;
+    padding: 15px;
+    background-color: var(--color-blue1);
+    color: var(--color-white);
+    border-radius: 10px;
+    min-width: 30%;
+    overflow: auto;
+
+}
+
+.espacamento{
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cabetotalis p{
+    font-size: 3rem;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.cabetotalis input{
+    cursor: pointer;
+}
+
+.cabe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+.butos p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6rem;
+}

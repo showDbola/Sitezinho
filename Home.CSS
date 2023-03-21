@@ -1,0 +1,123 @@
+:root{
+    --color-white: #fff;
+    --color-blue:#1900fa;
+    --color-blue1:#2d9c9367;
+    --color-roxo:#6505ff;
+    --color-black:#070000;
+    --color-blue3:#005b72;
+    --color-blue4:rgb(122, 196, 189);
+    --color-blue5:rgb(193, 242, 237);
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header h1{
+
+    background-color: var(--color-blue4);
+    padding: 30px;
+    font-size: 4rem;
+    text-align: center  ;
+}
+
+body{
+    background-color: var(--color-blue3) ;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--color-white);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    display: flex;
+}
+
+main input{
+    font-size: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid var(--color-white);
+    border-radius: 15px;
+    padding: 15px;
+    background-color: var(--color-blue3);
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+    font-size: 1.6rem;
+    color:var(--color-blue3);
+    cursor: pointer;
+
+}
+
+.espacamento{
+
+    padding: 5px;
+}
+
+.cabe{
+    background-color: var(--color-blue3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    padding: 40px;
+   
+}
+
+.cabetotalis{
+    background-color:var(--color-blue1);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+
+}
+
+.butos p{
+    font-size: 1.8rem;
+    padding: 15px;
+    color: var(--color-white);
+}
+
+.jog{
+    font-size: 1.6rem;
+    color: #005b72;
+}
+
+.long{
+    padding: 20px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    transition: 0.3s;
+    box-sizing: border-box;
+    
+}
+
+.butos2 p{
+    font-size: 3rem;
+    padding: 15px;
+    color: var(--color-white)   ;
+}
+
+.butos{
+    border: solid ;
+    background-color: var(--color-blue1);
+    padding: 25px;
+    
+}
+.butos input{
+    background-color: var(--color-white);
+}
